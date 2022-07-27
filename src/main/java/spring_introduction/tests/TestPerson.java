@@ -44,5 +44,6 @@ public class TestPerson {
     private static void withConfigDI(ClassPathXmlApplicationContext context) {
         Person person = context.getBean("myPerson", Person.class);
         person.callYourPet();
+        System.out.println(person);
     }
 }
