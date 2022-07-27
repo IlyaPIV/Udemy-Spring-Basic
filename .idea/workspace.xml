@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Dependency Injection - basics">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Dependency Injection - constructors">
       <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_introduction/tests/TestPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_introduction/tests/TestPerson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_introduction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_introduction/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658939742568</updated>
-      <workItem from="1658939744844" duration="5101000" />
+      <workItem from="1658939744844" duration="5410000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658943979039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dependency Injection - constructors">
+      <created>1658945347151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658945347151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inversion of Control" />
     <MESSAGE value="Dependency Injection - basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection - basics" />
+    <MESSAGE value="Dependency Injection - constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection - constructors" />
   </component>
 </project>
