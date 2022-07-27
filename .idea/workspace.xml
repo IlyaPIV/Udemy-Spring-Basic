@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Dependency Injection - setters">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Dependency Injection - values (String &amp; other) in construct">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_introduction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_introduction/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658939742568</updated>
-      <workItem from="1658939744844" duration="5969000" />
+      <workItem from="1658939744844" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658945725573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Dependency Injection - values (String &amp; other) in construct">
+      <created>1658946430524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658946430524</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="Dependency Injection - basics" />
     <MESSAGE value="Dependency Injection - constructors" />
     <MESSAGE value="Dependency Injection - setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection - setters" />
+    <MESSAGE value="Dependency Injection - values (String &amp; other) in construct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection - values (String &amp; other) in construct" />
   </component>
 </project>
