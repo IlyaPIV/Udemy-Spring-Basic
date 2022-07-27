@@ -13,7 +13,8 @@ public class TestPerson {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        withoutDependencyInjection(context);
+//        withoutDependencyInjection(context);
+        withConfigDI(context);
 
         context.close();
     }
@@ -34,6 +35,14 @@ public class TestPerson {
         Pet pet = context.getBean("myPet", Pet.class);
 
         Person person = new Person(pet);
+        person.callYourPet();
+    }
+
+    /**
+     * DI через конфиг файл
+     */
+    private static void withConfigDI(ClassPathXmlApplicationContext context) {
+        Person person = context.getBean("myPerson", Person.class);
         person.callYourPet();
     }
 }
