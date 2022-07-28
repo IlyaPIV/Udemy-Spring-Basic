@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@Autowired for setters">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@Autowired for fields">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/DogAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/DogAnno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/PersonAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/PersonAnno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/tests/TestAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/tests/TestAutowired.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658939742568</updated>
       <workItem from="1658939744844" duration="7100000" />
-      <workItem from="1659031588774" duration="3759000" />
+      <workItem from="1659031588774" duration="4396000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -193,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659036445880</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="@Autowired for fields">
+      <created>1659036615202</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659036615202</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +231,7 @@
     <MESSAGE value="Config beans with annotations" />
     <MESSAGE value="@Autowired for constructors" />
     <MESSAGE value="@Autowired for setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Autowired for setters" />
+    <MESSAGE value="@Autowired for fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Autowired for fields" />
   </component>
 </project>

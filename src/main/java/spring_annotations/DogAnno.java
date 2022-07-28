@@ -3,7 +3,7 @@ package spring_annotations;
 import org.springframework.stereotype.Component;
 import spring_introduction.Pet;
 
-//@Component("dogBean")
+@Component("dogBean")
 public class DogAnno implements Pet {
 
     public void say() {

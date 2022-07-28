@@ -1,6 +1,8 @@
 package spring_annotations;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import spring_introduction.Pet;
 
@@ -8,12 +10,15 @@ import spring_introduction.Pet;
 public class PersonAnno {
 
     @Autowired
+    @Qualifier("dogBean")
     private Pet pet;
+    @Value("${person.name}") //из файла конфигурации
     private String name;
+    @Value("33")        //хард вариант
     private int age;
 
 //    @Autowired
-//    public PersonAnno(Pet pet) {
+//    public PersonAnno(@Qualifier("catBean") Pet pet) {
 //        this.pet = pet;
 //    }
 //

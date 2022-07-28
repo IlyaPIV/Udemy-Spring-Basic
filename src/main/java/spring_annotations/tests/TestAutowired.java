@@ -13,6 +13,8 @@ public class TestAutowired {
         PersonAnno person = context.getBean("personBean", PersonAnno.class);
         person.callYourPet();
 
+        System.out.println(person.getName() + " / "+person.getAge());
+
         context.close();
     }
 }
