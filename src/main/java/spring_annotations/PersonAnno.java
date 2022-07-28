@@ -7,6 +7,7 @@ import spring_introduction.Pet;
 @Component("personBean")
 public class PersonAnno {
 
+    @Autowired
     private Pet pet;
     private String name;
     private int age;
@@ -20,7 +21,7 @@ public class PersonAnno {
         System.out.println(">> Person Bean is created");
     }
 
-    @Autowired
+//    @Autowired
     public void setPet(Pet pet) {
         System.out.println(">> class Person: set pet");
         this.pet = pet;
