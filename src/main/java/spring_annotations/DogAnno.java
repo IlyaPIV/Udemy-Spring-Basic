@@ -1,6 +1,11 @@
-package spring_introduction;
+package spring_annotations;
 
-public class Dog implements Pet{
+import org.springframework.stereotype.Component;
+import spring_introduction.Pet;
+
+@Component("dogBean")
+public class DogAnno implements Pet {
+
     public void say() {
         System.out.println("Bow-wow!");
     }
