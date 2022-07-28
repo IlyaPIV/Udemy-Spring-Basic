@@ -2,7 +2,7 @@ package spring_annotations.tests;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import spring_annotations.CatAnno;
-import spring_introduction.Person;
+import spring_annotations.PersonAnno;
 
 public class TestAutowired {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class TestAutowired {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContextAnnotations.xml");
 
-        Person person = context.getBean("personBean", Person.class);
+        PersonAnno person = context.getBean("personBean", PersonAnno.class);
         person.callYourPet();
 
         context.close();

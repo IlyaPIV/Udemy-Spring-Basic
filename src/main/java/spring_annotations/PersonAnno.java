@@ -11,15 +11,16 @@ public class PersonAnno {
     private String name;
     private int age;
 
-    @Autowired
-    public PersonAnno(Pet pet) {
-        this.pet = pet;
-    }
-
+//    @Autowired
+//    public PersonAnno(Pet pet) {
+//        this.pet = pet;
+//    }
+//
     public PersonAnno() {
         System.out.println(">> Person Bean is created");
     }
 
+    @Autowired
     public void setPet(Pet pet) {
         System.out.println(">> class Person: set pet");
         this.pet = pet;
