@@ -10,7 +10,9 @@
     <context:property-placeholder location="classpath:myAppValues.properties"/>
 
     <bean id = "myPet"
-          class="spring_introduction.Cat"/>
+          class="spring_introduction.Dog"
+            init-method="init"
+            destroy-method="destroy"/>
 
     <bean id = "myPerson"
           class="spring_introduction.Person">

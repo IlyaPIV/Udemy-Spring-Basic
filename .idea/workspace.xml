@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Dependency Injection - values (String &amp; other) in construct">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Dependency Injection - values in properties file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_introduction/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_introduction/Dog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,11 @@
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "761bd855f71ea19cf2238f9e47970e1a"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestPerson">
+  <component name="RunManager" selected="Application.TestPets">
     <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_introduction.tests.TestPerson" />
       <module name="Udemy_Spring-framework" />
@@ -78,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestPerson" />
         <item itemvalue="Application.TestPets" />
+        <item itemvalue="Application.TestPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658939742568</updated>
-      <workItem from="1658939744844" duration="6629000" />
+      <workItem from="1658939744844" duration="7100000" />
+      <workItem from="1659031588774" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658946430524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Dependency Injection - values in properties file">
+      <created>1658946981244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658946981244</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +161,7 @@
     <MESSAGE value="Dependency Injection - constructors" />
     <MESSAGE value="Dependency Injection - setters" />
     <MESSAGE value="Dependency Injection - values (String &amp; other) in construct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection - values (String &amp; other) in construct" />
+    <MESSAGE value="Dependency Injection - values in properties file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Injection - values in properties file" />
   </component>
 </project>
