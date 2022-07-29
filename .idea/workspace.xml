@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Config with java code. first method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Config with java code. second method">
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/configs/ConfigSecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/configs/ConfigSecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_introduction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_introduction/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +137,7 @@
       <updated>1658939742568</updated>
       <workItem from="1658939744844" duration="7100000" />
       <workItem from="1659031588774" duration="4603000" />
-      <workItem from="1659072378909" duration="1627000" />
+      <workItem from="1659072378909" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659073430777</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Config with java code. second method">
+      <created>1659074180360</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659074180360</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +276,7 @@
     <MESSAGE value="@Value" />
     <MESSAGE value="@Scope, @PostConstruct и @PreDestroy" />
     <MESSAGE value="Config with java code. first method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Config with java code. first method" />
+    <MESSAGE value="Config with java code. second method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config with java code. second method" />
   </component>
 </project>
