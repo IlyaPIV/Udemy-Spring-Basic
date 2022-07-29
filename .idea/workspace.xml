@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@Value">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@Scope, @PostConstruct и @PreDestroy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/CatAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/CatAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/PersonAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/PersonAnno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;761bd855f71ea19cf2238f9e47970e1a&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConfigWithAnnotations">
+  <component name="RunManager" selected="Application.TestConfigFirst">
     <configuration name="ConfigWithAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.ConfigWithAnnotations" />
       <module name="Udemy_Spring-framework" />
@@ -69,6 +66,19 @@
     </configuration>
     <configuration name="TestAutowired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.TestAutowired" />
+      <module name="Udemy_Spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring_annotations.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfigFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.TestConfigFirst" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
@@ -108,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestConfigFirst" />
         <item itemvalue="Application.ConfigWithAnnotations" />
         <item itemvalue="Application.TestAutowired" />
         <item itemvalue="Application.TestPets" />
@@ -125,7 +136,7 @@
       <updated>1658939742568</updated>
       <workItem from="1658939744844" duration="7100000" />
       <workItem from="1659031588774" duration="4603000" />
-      <workItem from="1659072378909" duration="630000" />
+      <workItem from="1659072378909" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -211,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659037367000</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="@Scope, @PostConstruct и @PreDestroy">
+      <created>1659073029743</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659073029743</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +259,7 @@
     <MESSAGE value="@Autowired for setters" />
     <MESSAGE value="@Autowired for fields" />
     <MESSAGE value="@Value" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Value" />
+    <MESSAGE value="@Scope, @PostConstruct и @PreDestroy" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Scope, @PostConstruct и @PreDestroy" />
   </component>
 </project>
