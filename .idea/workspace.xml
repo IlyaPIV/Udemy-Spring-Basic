@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@Scope, @PostConstruct и @PreDestroy">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Config with java code. first method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;761bd855f71ea19cf2238f9e47970e1a&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestConfigFirst">
+  <component name="RunManager" selected="Application.TestConfigSecond">
     <configuration name="ConfigWithAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.ConfigWithAnnotations" />
       <module name="Udemy_Spring-framework" />
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.tests.TestPerson" />
+    <configuration name="TestConfigSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.TestConfigSecond" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_introduction.tests.*" />
+          <option name="PATTERN" value="spring_annotations.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestConfigSecond" />
         <item itemvalue="Application.TestConfigFirst" />
         <item itemvalue="Application.ConfigWithAnnotations" />
         <item itemvalue="Application.TestAutowired" />
         <item itemvalue="Application.TestPets" />
-        <item itemvalue="Application.TestPerson" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +136,7 @@
       <updated>1658939742568</updated>
       <workItem from="1658939744844" duration="7100000" />
       <workItem from="1659031588774" duration="4603000" />
-      <workItem from="1659072378909" duration="944000" />
+      <workItem from="1659072378909" duration="1627000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659073029743</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Config with java code. first method">
+      <created>1659073430777</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659073430777</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +267,7 @@
     <MESSAGE value="@Autowired for fields" />
     <MESSAGE value="@Value" />
     <MESSAGE value="@Scope, @PostConstruct и @PreDestroy" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Scope, @PostConstruct и @PreDestroy" />
+    <MESSAGE value="Config with java code. first method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config with java code. first method" />
   </component>
 </project>
