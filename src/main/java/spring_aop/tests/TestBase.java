@@ -17,10 +17,13 @@ public class TestBase {
 
         UniversityLibrary uniLibrary = context.getBean("uniLibrary", UniversityLibrary.class);
         uniLibrary.getBook();
-//        uniLibrary.returnBook();
+        uniLibrary.returnBook();
+        uniLibrary.addBook();
         uniLibrary.getMagazine();
 //        uniLibrary.getBook("Война и мир");
 //        uniLibrary.getBook(book);
+        uniLibrary.returnMagazine();
+        uniLibrary.addMagazine();
 
 //        SchoolLibrary schoolLibrary = context.getBean("schoolLibrary", SchoolLibrary.class);
 //        schoolLibrary.getBook();
