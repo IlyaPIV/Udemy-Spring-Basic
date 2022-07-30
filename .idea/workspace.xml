@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@Autowired for fields">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@PropertySource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/DogAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/DogAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/PersonAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/PersonAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_annotations/tests/TestAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_annotations/tests/TestAutowired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +45,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "761bd855f71ea19cf2238f9e47970e1a"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestAutowired">
+  <component name="RunManager" selected="Application.TestBase">
     <configuration name="ConfigWithAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.ConfigWithAnnotations" />
       <module name="Udemy_Spring-framework" />
@@ -80,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.tests.TestPerson" />
+    <configuration name="TestBase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_aop.tests.TestBase" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_introduction.tests.*" />
+          <option name="PATTERN" value="spring_aop.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_introduction.tests.TestPets" />
+    <configuration name="TestConfigFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.TestConfigFirst" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_introduction.tests.*" />
+          <option name="PATTERN" value="spring_annotations.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfigSecond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.TestConfigSecond" />
+      <module name="Udemy_Spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring_annotations.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestAutowired" />
+        <item itemvalue="Application.TestBase" />
+        <item itemvalue="Application.TestConfigSecond" />
+        <item itemvalue="Application.TestConfigFirst" />
         <item itemvalue="Application.ConfigWithAnnotations" />
-        <item itemvalue="Application.TestPets" />
-        <item itemvalue="Application.TestPerson" />
+        <item itemvalue="Application.TestAutowired" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +137,9 @@
       <option name="presentableId" value="Default" />
       <updated>1658939742568</updated>
       <workItem from="1658939744844" duration="7100000" />
-      <workItem from="1659031588774" duration="4396000" />
+      <workItem from="1659031588774" duration="4603000" />
+      <workItem from="1659072378909" duration="2042000" />
+      <workItem from="1659103976031" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -203,7 +218,42 @@
       <option name="project" value="LOCAL" />
       <updated>1659036615202</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="@Value">
+      <created>1659037367000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659037367000</updated>
+    </task>
+    <task id="LOCAL-00013" summary="@Scope, @PostConstruct и @PreDestroy">
+      <created>1659073029743</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659073029743</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Config with java code. first method">
+      <created>1659073430777</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659073430777</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Config with java code. second method">
+      <created>1659074180360</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659074180360</updated>
+    </task>
+    <task id="LOCAL-00016" summary="@PropertySource">
+      <created>1659074353267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659074353267</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +282,11 @@
     <MESSAGE value="@Autowired for constructors" />
     <MESSAGE value="@Autowired for setters" />
     <MESSAGE value="@Autowired for fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Autowired for fields" />
+    <MESSAGE value="@Value" />
+    <MESSAGE value="@Scope, @PostConstruct и @PreDestroy" />
+    <MESSAGE value="Config with java code. first method" />
+    <MESSAGE value="Config with java code. second method" />
+    <MESSAGE value="@PropertySource" />
+    <option name="LAST_COMMIT_MESSAGE" value="@PropertySource" />
   </component>
 </project>
