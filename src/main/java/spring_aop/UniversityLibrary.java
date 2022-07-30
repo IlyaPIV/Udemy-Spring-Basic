@@ -10,13 +10,13 @@ public class UniversityLibrary extends AbstractLibrary{
         System.out.println("Мы берём книгу из университетской библиотеки");
     }
 
-    public void getBook(String bookName){
-        System.out.printf("Мы берём книгу \"%s\" из университетской библиотеки\n", bookName);
-    }
-
-    public void getBook(Book book){
-        System.out.printf("Мы берём книгу \"%s\" из университетской библиотеки\n", book.getName());
-    }
+//    public void getBook(String bookName){
+//        System.out.printf("Мы берём книгу \"%s\" из университетской библиотеки\n", bookName);
+//    }
+//
+//    public void getBook(Book book){
+//        System.out.printf("Мы берём книгу \"%s\" из университетской библиотеки\n", book.getName());
+//    }
 
     @Override
     public void returnBook() {

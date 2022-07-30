@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Advice типа @Before">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Pointcut">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/UniversityLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/UniversityLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/UniversityLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/aspects/LoggingAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/tests/TestBase.java" afterDir="false" />
     </list>
@@ -142,7 +142,8 @@
       <workItem from="1659031588774" duration="4603000" />
       <workItem from="1659072378909" duration="2042000" />
       <workItem from="1659103976031" duration="2742000" />
-      <workItem from="1659161223082" duration="2854000" />
+      <workItem from="1659161223082" duration="3054000" />
+      <workItem from="1659171573477" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -263,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659122970809</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pointcut">
+      <created>1659164421470</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659164421470</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +306,7 @@
     <MESSAGE value="Config with java code. second method" />
     <MESSAGE value="@PropertySource" />
     <MESSAGE value="Advice типа @Before" />
-    <option name="LAST_COMMIT_MESSAGE" value="Advice типа @Before" />
+    <MESSAGE value="Pointcut" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pointcut" />
   </component>
 </project>
