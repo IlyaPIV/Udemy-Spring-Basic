@@ -19,10 +19,14 @@ public class UniversityLibrary extends AbstractLibrary{
 //        System.out.printf("Мы берём книгу \"%s\" из университетской библиотеки\n", book.getName());
 //    }
 
-    @Override
-    public void returnBook() {
+   // @Override
+    public String returnBook() {
+
+        int a = 10/0;
+
         System.out.println("Мы возвращаем книгу в университетскую библиотеку");
-        System.out.println("------------------------------------------------");
+        //System.out.println("------------------------------------------------");
+        return "Преступление и наказание";
     }
 
     public void addBook(String person_name, Book book){
