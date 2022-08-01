@@ -7,7 +7,7 @@ public class MyPointcuts {
     @Pointcut("execution(* spring_aop.UniversityLibrary.get*())")
     public void allGetMethods(){}
 
-    @Pointcut("execution(* add*(..))")
+    @Pointcut("execution(* abcadd*(..))")
     public void allAddMethods(){}
 
 }
