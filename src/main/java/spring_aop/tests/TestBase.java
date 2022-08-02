@@ -12,13 +12,13 @@ public class TestBase {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(MyConfig.class);
 
-     //   Book book = context.getBean("book", Book.class);
+        Book book = context.getBean("book", Book.class);
 
 
         UniversityLibrary uniLibrary = context.getBean("uniLibrary", UniversityLibrary.class);
         uniLibrary.getBook();
         uniLibrary.returnBook();
-        uniLibrary.addBook();
+        uniLibrary.addBook("Vasian", book);
         uniLibrary.getMagazine();
 //        uniLibrary.getBook("Война и мир");
 //        uniLibrary.getBook(book);

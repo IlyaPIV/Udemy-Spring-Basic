@@ -9,7 +9,7 @@ public class SchoolLibrary extends AbstractLibrary{
         System.out.println("Мы берём книгу из школьной библиотеки");
     }
 
-    @Override
+    //@Override
     public void returnBook() {
         System.out.println("Мы возвращаем книгу в школьную библиотеку");
     }

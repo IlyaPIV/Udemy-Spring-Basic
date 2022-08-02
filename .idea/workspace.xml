@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="combinations Pointcut">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="@After">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/aspects/LoggingAndSecurityAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/aspects/LoggingAndSecurityAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/AbstractLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/AbstractLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/SchoolLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/SchoolLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_aop/UniversityLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_aop/UniversityLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,13 @@
     &quot;spring.configuration.checksum&quot;: &quot;761bd855f71ea19cf2238f9e47970e1a&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestBase">
-    <configuration name="ConfigWithAnnotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.ConfigWithAnnotations" />
+  <component name="RunManager" selected="Application.TestAround">
+    <configuration name="TestAfterReturning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_aop.tests.TestAfterReturning" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_annotations.tests.*" />
+          <option name="PATTERN" value="spring_aop.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAutowired" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_annotations.tests.TestAutowired" />
+    <configuration name="TestAround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring_aop.tests.TestAround" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_annotations.tests.*" />
+          <option name="PATTERN" value="spring_aop.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestAround" />
+        <item itemvalue="Application.TestAfterReturning" />
         <item itemvalue="Application.TestBase" />
         <item itemvalue="Application.TestConfigSecond" />
         <item itemvalue="Application.TestConfigFirst" />
-        <item itemvalue="Application.ConfigWithAnnotations" />
-        <item itemvalue="Application.TestAutowired" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,9 @@
       <workItem from="1659072378909" duration="2042000" />
       <workItem from="1659103976031" duration="2742000" />
       <workItem from="1659161223082" duration="3054000" />
-      <workItem from="1659171573477" duration="3637000" />
+      <workItem from="1659171573477" duration="4875000" />
+      <workItem from="1659280504698" duration="2442000" />
+      <workItem from="1659372265095" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -284,7 +287,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659174337041</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="aspects @Order">
+      <created>1659175440574</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659175440574</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Join Point">
+      <created>1659282342489</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659282342489</updated>
+    </task>
+    <task id="LOCAL-00023" summary="@AfterReturning">
+      <created>1659373628910</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659373628910</updated>
+    </task>
+    <task id="LOCAL-00024" summary="@After">
+      <created>1659375103877</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659375103877</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +353,10 @@
     <MESSAGE value="Pointcut" />
     <MESSAGE value="объявление Pointcut" />
     <MESSAGE value="combinations Pointcut" />
-    <option name="LAST_COMMIT_MESSAGE" value="combinations Pointcut" />
+    <MESSAGE value="aspects @Order" />
+    <MESSAGE value="Join Point" />
+    <MESSAGE value="@AfterReturning" />
+    <MESSAGE value="@After" />
+    <option name="LAST_COMMIT_MESSAGE" value="@After" />
   </component>
 </project>
