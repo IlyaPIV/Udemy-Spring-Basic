@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Hibernate. GET" />
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Hibernate. UPDATE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +53,7 @@
     "spring.configuration.checksum": "761bd855f71ea19cf2238f9e47970e1a"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test4">
+  <component name="RunManager" selected="Application.Test5">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate_basic.tests.Test" />
       <module name="Udemy_Spring-framework" />
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring_aop.tests.TestAround" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_basic.tests.Test5" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring_aop.tests.*" />
+          <option name="PATTERN" value="hibernate_basic.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestAround" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,7 @@
       <workItem from="1659280504698" duration="2442000" />
       <workItem from="1659372265095" duration="5212000" />
       <workItem from="1659461024417" duration="3558000" />
-      <workItem from="1659543182915" duration="1095000" />
+      <workItem from="1659543182915" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -337,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659544158308</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Hibernate. UPDATE">
+      <created>1659544462256</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659544462256</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dependency Injection - constructors" />
     <MESSAGE value="Dependency Injection - setters" />
     <MESSAGE value="Dependency Injection - values (String &amp; other) in construct" />
     <MESSAGE value="Dependency Injection - values in properties file" />
@@ -380,6 +386,7 @@
     <MESSAGE value="@Around" />
     <MESSAGE value="Hibernate. part 1" />
     <MESSAGE value="Hibernate. GET" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate. GET" />
+    <MESSAGE value="Hibernate. UPDATE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hibernate. UPDATE" />
   </component>
 </project>
