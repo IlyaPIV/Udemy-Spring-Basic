@@ -33,6 +33,7 @@ public class Test2 {
 
             Detail detail = session.get(Detail.class, 4);
             System.out.println(detail.getEmployee());
+            detail.getEmployee().setEmpDetail(null);
             session.delete(detail);
 
             session.getTransaction().commit();
