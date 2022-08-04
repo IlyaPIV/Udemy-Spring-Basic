@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="One-to-one (bi)">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Many-to-One (bi)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;761bd855f71ea19cf2238f9e47970e1a&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.hibernate_one_to_many_uni.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate_one_to_many_bi.tests.Test" />
       <module name="Udemy_Spring-framework" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernate_basic.tests.Test4" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_basic.tests.Test5" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernate_basic.tests.Test5" />
+    <configuration name="hibernate_one_to_many_uni.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_one_to_many_uni.Test" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hibernate_basic.tests.*" />
+          <option name="PATTERN" value="hibernate_one_to_many_uni.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hibernate_one_to_many_uni.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.hibernate_one_to_one.tests.Test2" />
         <item itemvalue="Application.hibernate_one_to_one.tests.Test" />
         <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +152,7 @@
       <workItem from="1659372265095" duration="5212000" />
       <workItem from="1659461024417" duration="3558000" />
       <workItem from="1659543182915" duration="3917000" />
-      <workItem from="1659618849184" duration="3516000" />
+      <workItem from="1659618849184" duration="4277000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -378,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659620319190</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Many-to-One (bi)">
+      <created>1659622395890</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1659622395890</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Beans life cycle - init and destroy" />
     <MESSAGE value="Config beans with annotations" />
     <MESSAGE value="@Autowired for constructors" />
     <MESSAGE value="@Autowired for setters" />
@@ -421,6 +427,7 @@
     <MESSAGE value="Hibernate. DELETE" />
     <MESSAGE value="One-to-one (uni)" />
     <MESSAGE value="One-to-one (bi)" />
-    <option name="LAST_COMMIT_MESSAGE" value="One-to-one (bi)" />
+    <MESSAGE value="Many-to-One (bi)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many-to-One (bi)" />
   </component>
 </project>
