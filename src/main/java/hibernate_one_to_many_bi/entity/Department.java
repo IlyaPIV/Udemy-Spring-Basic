@@ -20,8 +20,9 @@ public class Department {
     @Column(name = "min_salary")
     private int minSalary;
 
-    @OneToMany(cascade = {CascadeType.DETACH, CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH}
-                    , mappedBy = "department")
+    @OneToMany(cascade = CascadeType.ALL
+                    , mappedBy = "department"
+                    , fetch = FetchType.EAGER)
     private List<Employee> emps;
 
     public Department() {

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Many-to-One (bi)">
+    <list default="true" id="ffc57373-669f-4ca5-80b2-7febf379e53d" name="Changes" comment="Many-to-One (uni)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate_one_to_many_bi/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate_one_to_many_bi/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate_one_to_many_bi/tests/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate_one_to_many_bi/tests/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate_one_to_many_uni/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hibernate_one_to_many_uni/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2CXCrL9n3IgJ34IWHqhbTqw5WH7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +63,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;761bd855f71ea19cf2238f9e47970e1a&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.hibernate_one_to_many_uni.Test">
+  <component name="RunManager" selected="Application.hibernate_many_to_many.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate_one_to_many_bi.tests.Test" />
       <module name="Udemy_Spring-framework" />
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hibernate_basic.tests.Test5" />
+    <configuration name="hibernate_many_to_many.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate_many_to_many.Test" />
       <module name="Udemy_Spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hibernate_basic.tests.*" />
+          <option name="PATTERN" value="hibernate_many_to_many.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.hibernate_one_to_many_uni.Test" />
+        <item itemvalue="Application.hibernate_many_to_many.Test" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.hibernate_one_to_many_uni.Test" />
         <item itemvalue="Application.hibernate_one_to_one.tests.Test2" />
         <item itemvalue="Application.hibernate_one_to_one.tests.Test" />
-        <item itemvalue="Application.Test5" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +157,7 @@
       <workItem from="1659372265095" duration="5212000" />
       <workItem from="1659461024417" duration="3558000" />
       <workItem from="1659543182915" duration="3917000" />
-      <workItem from="1659618849184" duration="4277000" />
+      <workItem from="1659618849184" duration="8625000" />
     </task>
     <task id="LOCAL-00001" summary="Inversion of Control">
       <created>1658942794801</created>
@@ -385,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659622395890</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Many-to-One (uni)">
+      <created>1659623428541</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1659623428541</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Config beans with annotations" />
     <MESSAGE value="@Autowired for constructors" />
     <MESSAGE value="@Autowired for setters" />
     <MESSAGE value="@Autowired for fields" />
@@ -428,6 +439,7 @@
     <MESSAGE value="One-to-one (uni)" />
     <MESSAGE value="One-to-one (bi)" />
     <MESSAGE value="Many-to-One (bi)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Many-to-One (bi)" />
+    <MESSAGE value="Many-to-One (uni)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many-to-One (uni)" />
   </component>
 </project>
